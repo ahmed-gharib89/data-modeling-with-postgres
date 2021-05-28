@@ -75,3 +75,14 @@ In order to acheive this database schema we followed a seriese of steps to reach
 3. Load the json file into pandas dataframe.
 
 4. We grap the needed columns from the dataframe and inset it to the table.
+
+
+### How to run
+
+Simply in your prefared CLI (command line interface) excute the following:
+
+1. To create or reset the database and the tables `python create_tables.py`
+
+2. To run the etl process `python etl.py`
+
+3. To test and have a lock for the data in the tables simply open test.ipynb and run the code cells.
